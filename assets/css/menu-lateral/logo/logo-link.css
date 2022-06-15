@@ -1,0 +1,43 @@
+:root
+{
+    --skin-color:#ec1839; 
+}
+.menu-lateral__logo___link
+{
+    color: var(--text-black-900);
+    font-weight: 700;
+    padding: 15px 20px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    position: relative;
+}
+
+.menu-lateral__logo___link span 
+{
+    font-family: 'Clicker Script', cursive;
+    font-size: 40px;
+}
+
+.menu-lateral__logo___link::before
+{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-bottom: 5px solid var(--skin-color);
+    border-left: 5px solid var(--skin-color);
+    bottom: 0;
+    left: 0;
+}
+
+.menu-lateral__logo___link::after
+{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-top: 5px solid var(--skin-color);
+    border-right: 5px solid var(--skin-color);
+    top: 0;
+    right: 0;
+}
