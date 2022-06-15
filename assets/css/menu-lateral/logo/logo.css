@@ -1,0 +1,8 @@
+.menu-lateral__logo
+{
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+

@@ -1,8 +1,16 @@
-.aside{
+.menu-lateral{
     width: 270px;
     background-color: var(--bg-black-100);
     position: fixed;
     left: 0;
     top: 0;
+    padding: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 10;
 }
+
+
+
