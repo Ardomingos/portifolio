@@ -1,7 +1,4 @@
-:root
-{
-    --skin-color:#ec1839; 
-}
+
 .menu-lateral__logo___link
 {
     color: var(--text-black-900);
