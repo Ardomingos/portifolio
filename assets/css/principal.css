@@ -1,0 +1,5 @@
+.principal{
+    min-height: 100vh;
+    display: flex;
+    color: var(--bg-black-900);
+}
