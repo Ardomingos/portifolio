@@ -1,0 +1,17 @@
+.principal-info__contato{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 35px;
+    color: white;
+    border-radius: 40px;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    background: var(--skin-color);
+    transition: all ,0.3s ,ease;
+}
+
+.principal-info__contato:hover{
+    transform: scale(1.05);
+}
+

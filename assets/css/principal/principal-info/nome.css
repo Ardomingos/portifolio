@@ -1,0 +1,6 @@
+.principal-info__nome{
+    font-family: 'Clicker Script', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--skin-color);
+}
