@@ -1,0 +1,27 @@
+.titulo-sobre__titulo{
+    font-size: 40px;
+    color: var(--text-back-900);
+    font-weight: 700;
+    position: relative;
+}
+
+.titulo-sobre__titulo::before{
+    content: '';
+    height: 4px;
+    width: 50px;
+    background-color: var(--skin-color);
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.titulo-sobre__titulo::after{
+    content: '';
+    height: 4px;
+    width: 25px;
+    background-color: var(--skin-color);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 8px;
+}
