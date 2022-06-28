@@ -1,0 +1,7 @@
+.info-pessoal__item___texto{
+    font-weight: 600;
+    padding: 10px;
+    font-size: 16px;
+    color: var(--text-black-900);
+    border-bottom: 1px solid var(--bg-black-50) ;
+}
