@@ -1,0 +1,7 @@
+.skills-item___progresso{
+    background-color: var(--bg-black-50);
+    height: 7px;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+}

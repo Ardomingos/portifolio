@@ -2,7 +2,7 @@
 {
     background: var(--bg-black-900);
     min-height: 100vh;
-    position: fixed;
+    position:absolute;
     left: 270px;
     padding: 0 30px;
     top: 0;
