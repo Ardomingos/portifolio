@@ -1,11 +1,11 @@
-.titulo-sobre__titulo{
+.titulo__titulo{
     font-size: 40px;
     color: var(--text-back-900);
     font-weight: 700;
     position: relative;
 }
 
-.titulo-sobre__titulo::before{
+.titulo__titulo::before{
     content: '';
     height: 4px;
     width: 50px;
@@ -15,7 +15,7 @@
     left: 0;
 }
 
-.titulo-sobre__titulo::after{
+.titulo__titulo::after{
     content: '';
     height: 4px;
     width: 25px;

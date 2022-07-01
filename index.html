@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/botao.css">
     <link rel="stylesheet" href="assets/css/btn.css">
+    <link rel="stylesheet" href="assets/css/caixa-timeline.css">
+    <link rel="stylesheet" href="assets/css/conhecimento-container.css">
+    <link rel="stylesheet" href="assets/css/conhecimento-item.css">
     <link rel="stylesheet" href="assets/css/container.css">
     <link rel="stylesheet" href="assets/css/conteudo-sobre.css">
     <link rel="stylesheet" href="assets/css/educacao.css">
@@ -19,10 +22,15 @@
     <link rel="stylesheet" href="assets/css/principal.css">
     <link rel="stylesheet" href="assets/css/secao.css">
     <link rel="stylesheet" href="assets/css/skills.css">
+    <link rel="stylesheet" href="assets/css/sombra.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/titulo-sobre.css">
+    <link rel="stylesheet" href="assets/css/timeline.css">
+    <link rel="stylesheet" href="assets/css/titulo.css">
     <link rel="stylesheet" href="assets/css/botao/btn.css">
     <link rel="stylesheet" href="assets/css/botao/contato.css">
+    <link rel="stylesheet" href="assets/css/conhecimento-item/item-icon.css">
+    <link rel="stylesheet" href="assets/css/conhecimento-item/item-paragrafo.css">
+    <link rel="stylesheet" href="assets/css/conhecimento-item/item-titulo.css">
     <link rel="stylesheet" href="assets/css/conteudo-sobre/texto.css">
     <link rel="stylesheet" href="assets/css/conteudo-sobre/texto-destaque.css">
     <link rel="stylesheet" href="assets/css/conteudo-sobre/texto-paragrafo.css">
@@ -56,7 +64,13 @@
     <link rel="stylesheet" href="assets/css/skills-item/item-progresso.css">
     <link rel="stylesheet" href="assets/css/skills-item/item-titulo.css">
     <link rel="stylesheet" href="assets/css/skin/cor1.css">
-    <link rel="stylesheet" href="assets/css/titulo-sobre/titulo.css">
+    <link rel="stylesheet" href="assets/css/timeline/item/item.css">
+    <link rel="stylesheet" href="assets/css/timeline/item/item-calendario.css">
+    <link rel="stylesheet" href="assets/css/timeline/item/item-circulo.css">
+    <link rel="stylesheet" href="assets/css/timeline/item/item-data.css">
+    <link rel="stylesheet" href="assets/css/timeline/texto.css">
+    <link rel="stylesheet" href="assets/css/timeline/titulo.css">
+    <link rel="stylesheet" href="assets/css/titulo/titulo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
 </head>
@@ -97,11 +111,11 @@
                     </div>
                 </div>
             </section>   
-            <section class="sobre secao">
+            <section class="sobre secao esconder">
                 <div class="container">
                     <div class="fileira">
-                       <div class="titulo-sobre padd-15">
-                            <h2 class="titulo-sobre__titulo">Sobre mim</h2>
+                       <div class="titulo padd-15">
+                            <h2 class="titulo__titulo">Sobre mim</h2>
                        </div>
                     </div>
                     <div class="fileira">
@@ -186,16 +200,87 @@
                                     <h3 class="educacao__titulo">Educação</h3>
                                     <div class="fileira">
                                         <div class="caixa-timeline padd-15">
-                                            <div class="timeline">
-                                                linha do tempo
+                                            <div class="timeline sombra">
+                                                <div class="timeline__item">
+                                                    <div class="timeline__item___circulo"></div>
+                                                    <h3 class="timeline__item___data">
+                                                        <i class="fa fa-calendar timeline__item__calendario"></i> 2021
+                                                    </h3>      
+                                                    <h4 class="timeline__titulo">Udemy</h4> 
+                                                    <p class="timeline__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum nunc vel placerat tempus. Sed quis elit arcu. Cras mollis, massa sed euismod mollis, felis justo mollis lorem, quis dictum.  </p>                                             
+                                                </div>
+                                                <div class="timeline__item">
+                                                    <div class="timeline__item___circulo"></div>
+                                                    <h3 class="timeline__item___data">
+                                                        <i class="fa fa-calendar timeline__item__calendario"></i> 2021
+                                                    </h3>      
+                                                    <h4 class="timeline__titulo">Resilia</h4> 
+                                                    <p class="timeline__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum nunc vel placerat tempus. Sed quis elit arcu. Cras mollis, massa sed euismod mollis, felis justo mollis lorem, quis dictum.  </p>                                             
+                                                </div>
+                                                <div class="timeline__item">
+                                                    <div class="timeline__item___circulo"></div>
+                                                    <h3 class="timeline__item___data">
+                                                        <i class="fa fa-calendar timeline__item__calendario"></i> 2021
+                                                    </h3>      
+                                                    <h4 class="timeline__titulo">Alura</h4> 
+                                                    <p class="timeline__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum nunc vel placerat tempus. Sed quis elit arcu. Cras mollis, massa sed euismod mollis, felis justo mollis lorem, quis dictum.  </p>                                             
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="experiencia padd-15">
                                     <h3 class="experiencia__titulo">Experiencia</h3>
+                                    <div class="fileira">
+                                        <div class="caixa-timeline padd-15">
+                                            <div class="timeline sombra">
+                                                <div class="timeline__item">
+                                                    <div class="timeline__item___circulo"></div>
+                                                    <h3 class="timeline__item___data">
+                                                        <i class="fa fa-calendar timeline__item__calendario"></i> 2021
+                                                    </h3>      
+                                                    <h4 class="timeline__titulo">Udemy</h4> 
+                                                    <p class="timeline__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum nunc vel placerat tempus. Sed quis elit arcu. Cras mollis, massa sed euismod mollis, felis justo mollis lorem, quis dictum.  </p>                                             
+                                                </div>
+                                                <div class="timeline__item">
+                                                    <div class="timeline__item___circulo"></div>
+                                                    <h3 class="timeline__item___data">
+                                                        <i class="fa fa-calendar timeline__item__calendario"></i> 2021
+                                                    </h3>      
+                                                    <h4 class="timeline__titulo">Resilia</h4> 
+                                                    <p class="timeline__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum nunc vel placerat tempus. Sed quis elit arcu. Cras mollis, massa sed euismod mollis, felis justo mollis lorem, quis dictum.  </p>                                             
+                                                </div>
+                                                <div class="timeline__item">
+                                                    <div class="timeline__item___circulo"></div>
+                                                    <h3 class="timeline__item___data">
+                                                        <i class="fa fa-calendar timeline__item__calendario"></i> 2021
+                                                    </h3>      
+                                                    <h4 class="timeline__titulo">Alura</h4> 
+                                                    <p class="timeline__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum nunc vel placerat tempus. Sed quis elit arcu. Cras mollis, massa sed euismod mollis, felis justo mollis lorem, quis dictum.  </p>                                             
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="conhecimento secao">
+                <div class="fileira">
+                    <div class="titulo padd-15">
+                        <h2 class="titulo__titulo">Conhecimentos</h2>
+                    </div>
+                </div>
+                <div class="fileira">
+                    <div class="conhecimento-container">
+                        <div class="conhecimento-item">
+                            <div class="conhecimento-item__icon">
+                                <i class="fa fa-mobile-alt"></i>
+                            </div>
+                            <h4 class="conhecimento-item__titulo">Web Design</h4>
+                            <p class="conhecimento-item__paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia harum corrupti placeat.</p>
                         </div>
                     </div>
                 </div>

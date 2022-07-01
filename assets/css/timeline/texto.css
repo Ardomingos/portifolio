@@ -1,0 +1,6 @@
+.timeline__texto{
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+    color: var(--text-black-700);
+}

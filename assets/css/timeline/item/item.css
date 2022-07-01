@@ -1,0 +1,19 @@
+.timeline__item{
+    position: relative;
+    padding-left: 35px;
+    padding-bottom: 40px;
+}
+
+.timeline__item:last-child{
+    padding-bottom: 0px;
+}
+
+.timeline__item::before{
+    content: '';
+    width: 1px;
+    position: absolute;
+    height: 100%;
+    left: 6px;
+    top: 0;
+    background-color: var(--skin-color);
+}
