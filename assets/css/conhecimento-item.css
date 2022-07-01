@@ -1,0 +1,12 @@
+.conhecimento-item{
+    background-color: var(--bg-black-100);
+    border: 1px solid var(--bg-black-50);
+    border-radius: 10px;
+    padding: 30px 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.conhecimento-item:hover{
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}

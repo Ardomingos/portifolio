@@ -1,0 +1,12 @@
+.conhecimento-item__contaier-icon___icon {
+
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--skin-color);
+    transition: all 0.3 ease;
+}
+
+.conhecimento-item:hover .conhecimento-item__contaier-icon .conhecimento-item__contaier-icon___icon{
+    font-size: 25px;
+    color: #ffffff;
+}

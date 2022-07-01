@@ -1,0 +1,18 @@
+.conhecimento-item__contaier-icon {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+    justify-content: center;
+    align-items: center;
+}
+
+.conhecimento-item:hover .conhecimento-item__contaier-icon{
+    background: var(--skin-color);
+}
+
+
+

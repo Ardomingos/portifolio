@@ -1,0 +1,7 @@
+.conhecimento-item__titulo{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: var(--text-black-900);
+    font-weight: 700;
+    text-transform: capitalize;
+}
