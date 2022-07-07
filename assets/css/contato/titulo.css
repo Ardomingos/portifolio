@@ -1,0 +1,6 @@
+.contato__titulo{
+    color: var(--skin-color);
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;  
+}

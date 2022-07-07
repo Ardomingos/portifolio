@@ -1,0 +1,6 @@
+.port-item__caixa{
+    border: 6px solid var(--bg-black-100);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
