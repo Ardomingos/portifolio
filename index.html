@@ -7,15 +7,19 @@
     <link rel="stylesheet" href="assets/css/botao.css">
     <link rel="stylesheet" href="assets/css/btn.css">
     <link rel="stylesheet" href="assets/css/caixa-timeline.css">
+    <link rel="stylesheet" href="assets/css/col-6.css">
+    <link rel="stylesheet" href="assets/css/col-12.css">
     <link rel="stylesheet" href="assets/css/conhecimento-container.css">
     <link rel="stylesheet" href="assets/css/conhecimento-item.css">
     <link rel="stylesheet" href="assets/css/container.css">
     <link rel="stylesheet" href="assets/css/contato.css">
+    <link rel="stylesheet" href="assets/css/contato-form.css">
     <link rel="stylesheet" href="assets/css/conteudo-sobre.css">
     <link rel="stylesheet" href="assets/css/educacao.css">
     <link rel="stylesheet" href="assets/css/esconder.css">
     <link rel="stylesheet" href="assets/css/experiencia.css">
     <link rel="stylesheet" href="assets/css/fileira.css">
+    <link rel="stylesheet" href="assets/css/form-item.css">
     <link rel="stylesheet" href="assets/css/habilidades.css">
     <link rel="stylesheet" href="assets/css/info-pessoal.css">
     <link rel="stylesheet" href="assets/css/menu-lateral.css">
@@ -24,6 +28,7 @@
     <link rel="stylesheet" href="assets/css/port-item.css">
     <link rel="stylesheet" href="assets/css/principal.css">
     <link rel="stylesheet" href="assets/css/secao.css">
+    <link rel="stylesheet" href="assets/css/secao-principal.css">
     <link rel="stylesheet" href="assets/css/skills.css">
     <link rel="stylesheet" href="assets/css/sombra.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -35,6 +40,7 @@
     <link rel="stylesheet" href="assets/css/conhecimento-item/container-item-icon.css">
     <link rel="stylesheet" href="assets/css/conhecimento-item/item-paragrafo.css">
     <link rel="stylesheet" href="assets/css/conhecimento-item/item-titulo.css">
+    <link rel="stylesheet" href="assets/css/contato/btn.css">
     <link rel="stylesheet" href="assets/css/contato/info-item.css">
     <link rel="stylesheet" href="assets/css/contato/subtitulo.css">
     <link rel="stylesheet" href="assets/css/contato/titulo.css">
@@ -44,6 +50,9 @@
     <link rel="stylesheet" href="assets/css/conteudo-sobre/texto-titulo.css">
     <link rel="stylesheet" href="assets/css/educacao/titulo.css">
     <link rel="stylesheet" href="assets/css/experiencia/titulo.css">
+    <link rel="stylesheet" href="assets/css/form-item/controle.css">
+    <link rel="stylesheet" href="assets/css/form-item/controle-texto.css">
+    <link rel="stylesheet" href="assets/css/form-item/grupo.css">
     <link rel="stylesheet" href="assets/css/info-item/icone.css">
     <link rel="stylesheet" href="assets/css/info-item/icone-icon.css">
     <link rel="stylesheet" href="assets/css/info-item/icone-texto.css">
@@ -73,6 +82,7 @@
     <link rel="stylesheet" href="assets/css/principal/principal-info/nome.css">
     <link rel="stylesheet" href="assets/css/principal/principal-info/texto.css">
     <link rel="stylesheet" href="assets/css/principal/principal-info/ola.css">
+    <link rel="stylesheet" href="assets/css/responsividade/1199px/1199px.css">
     <link rel="stylesheet" href="assets/css/skills-item/item.css">
     <link rel="stylesheet" href="assets/css/skills-item/item-numero.css">
     <link rel="stylesheet" href="assets/css/skills-item/item-porcetagem.css">
@@ -111,22 +121,22 @@
         </div>
 
         <div class="secao-principal">
-            <section class="principal secao esconder">
+            <section class="principal secao">
                 <div class="container">
                     <div class="fileira">
                         <div class="principal-info padd-15">
-                            <h3 class="principal-info__ola">Olá, meu nome é <span class="principal-info__nome">André Rodrigues Domingos</span></h3>
+                            <h3 class="principal-info__ola">Olá, meu nome é <span class="principal-info__nome">André Rodrigues</span></h3>
                             <h3 class="principal-info__conhecimentos">Tenho conhecimentos em <span class="principal-info__digitacao">Front-end</span></h3>
                             <p class="principal-info__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ex ex, gravida non ultrices sed, fringilla a arcu. Mauris luctus magna orci, in viverra libero facilisis sed. Nunc iaculis, dolor. </p>
                             <a href="#" class="btn">Contato</a>
                         </div>
                         <div class="principal__foto padd-15">
-                            <img class="foto" src="assets/img/imagem-perfil.jpg" alt="">
+                            <img class="foto padd-15" src="assets/img/imagem-perfil.jpg" alt="">
                         </div>
                     </div>
                 </div>
             </section>   
-            <section class="sobre secao esconder">
+            <section class="sobre secao">
                 <div class="container">
                     <div class="fileira">
                        <div class="titulo padd-15">
@@ -145,7 +155,7 @@
                                 <div class="info-pessoal padd-15"> 
                                     <div class="fileira">
                                         <div class="info-pessoal__item padd-15">
-                                            <p class="info-pessoal__item___texto">Data de nascimento : <span class="info-pessoal__item___destaque">08 Setembro 1996</span></p>
+                                            <p class="info-pessoal__item___texto">Data de nascimento : <span class="info-pessoal__item___destaque">08/09/1996</span></p>
                                         </div>
                                         <div class="info-pessoal__item padd-15">
                                             <p class="info-pessoal__item___texto">Github : <span class="info-pessoal__item___destaque"><a  href="https://github.com/Ardomingos">André Rodrigues</a></span></p>
@@ -282,70 +292,72 @@
                     </div>
                 </div>
             </section>
-            <section class="conhecimento secao esconder">
-                <div class="fileira">
-                    <div class="titulo padd-15">
-                        <h2 class="titulo__titulo">Conhecimentos</h2>
-                    </div>
-                </div>
-                <div class="fileira">
-                    <div class="conhecimento-container padd-15">
-                        <div class="conhecimento-item">
-                            <div class="conhecimento-item__contaier-icon">
-                                <i class="conhecimento-item__contaier-icon___icon fa fa-mobile-alt"></i>
-                            </div>
-                            <h4 class="conhecimento-item__titulo">Web Design</h4>
-                            <p class="conhecimento-item__paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia harum corrupti placeat.</p>
+            <section class="conhecimento secao">
+                <div class="container">
+                    <div class="fileira">
+                        <div class="titulo padd-15">
+                            <h2 class="titulo__titulo">Conhecimentos</h2>
                         </div>
                     </div>
-                    <div class="conhecimento-container padd-15">
-                        <div class="conhecimento-item">
-                            <div class="conhecimento-item__contaier-icon">
-                                <i class="conhecimento-item__contaier-icon___icon fa fa-laptop-code"></i>
+                    <div class="fileira">
+                        <div class="conhecimento-container padd-15">
+                            <div class="conhecimento-item">
+                                <div class="conhecimento-item__contaier-icon">
+                                    <i class="conhecimento-item__contaier-icon___icon fa fa-mobile-alt"></i>
+                                </div>
+                                <h4 class="conhecimento-item__titulo">Web Design</h4>
+                                <p class="conhecimento-item__paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia harum corrupti placeat.</p>
                             </div>
-                            <h4 class="conhecimento-item__titulo">Web Design</h4>
-                            <p class="conhecimento-item__paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia harum corrupti placeat.</p>
                         </div>
-                    </div>
-                    <div class="conhecimento-container padd-15">
-                        <div class="conhecimento-item">
-                            <div class="conhecimento-item__contaier-icon">
-                                <i class="conhecimento-item__contaier-icon___icon fa fa-palette"></i>
+                        <div class="conhecimento-container padd-15">
+                            <div class="conhecimento-item">
+                                <div class="conhecimento-item__contaier-icon">
+                                    <i class="conhecimento-item__contaier-icon___icon fa fa-laptop-code"></i>
+                                </div>
+                                <h4 class="conhecimento-item__titulo">Web Design</h4>
+                                <p class="conhecimento-item__paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia harum corrupti placeat.</p>
                             </div>
-                            <h4 class="conhecimento-item__titulo">Web Design</h4>
-                            <p class="conhecimento-item__paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia harum corrupti placeat.</p>
                         </div>
-                    </div>
-                    <div class="conhecimento-container padd-15">
-                        <div class="conhecimento-item">
-                            <div class="conhecimento-item__contaier-icon">
-                                <i class="conhecimento-item__contaier-icon___icon fa fa-code"></i>
+                        <div class="conhecimento-container padd-15">
+                            <div class="conhecimento-item">
+                                <div class="conhecimento-item__contaier-icon">
+                                    <i class="conhecimento-item__contaier-icon___icon fa fa-palette"></i>
+                                </div>
+                                <h4 class="conhecimento-item__titulo">Web Design</h4>
+                                <p class="conhecimento-item__paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia harum corrupti placeat.</p>
                             </div>
-                            <h4 class="conhecimento-item__titulo">Web Design</h4>
-                            <p class="conhecimento-item__paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia harum corrupti placeat.</p>
                         </div>
-                    </div>
-                    <div class="conhecimento-container padd-15">
-                        <div class="conhecimento-item">
-                            <div class="conhecimento-item__contaier-icon">
-                                <i class="conhecimento-item__contaier-icon___icon fa fa-search"></i>
+                        <div class="conhecimento-container padd-15">
+                            <div class="conhecimento-item">
+                                <div class="conhecimento-item__contaier-icon">
+                                    <i class="conhecimento-item__contaier-icon___icon fa fa-code"></i>
+                                </div>
+                                <h4 class="conhecimento-item__titulo">Web Design</h4>
+                                <p class="conhecimento-item__paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia harum corrupti placeat.</p>
                             </div>
-                            <h4 class="conhecimento-item__titulo">Web Design</h4>
-                            <p class="conhecimento-item__paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia harum corrupti placeat.</p>
                         </div>
-                    </div>
-                    <div class="conhecimento-container padd-15">
-                        <div class="conhecimento-item">
-                            <div class="conhecimento-item__contaier-icon">
-                                <i class="conhecimento-item__contaier-icon___icon fa fa-bullhorn"></i>
+                        <div class="conhecimento-container padd-15">
+                            <div class="conhecimento-item">
+                                <div class="conhecimento-item__contaier-icon">
+                                    <i class="conhecimento-item__contaier-icon___icon fa fa-search"></i>
+                                </div>
+                                <h4 class="conhecimento-item__titulo">Web Design</h4>
+                                <p class="conhecimento-item__paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia harum corrupti placeat.</p>
                             </div>
-                            <h4 class="conhecimento-item__titulo">Web Design</h4>
-                            <p class="conhecimento-item__paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia harum corrupti placeat.</p>
+                        </div>
+                        <div class="conhecimento-container padd-15">
+                            <div class="conhecimento-item">
+                                <div class="conhecimento-item__contaier-icon">
+                                    <i class="conhecimento-item__contaier-icon___icon fa fa-bullhorn"></i>
+                                </div>
+                                <h4 class="conhecimento-item__titulo">Web Design</h4>
+                                <p class="conhecimento-item__paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia harum corrupti placeat.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="portifolio secao esconder">
+           <section class="portifolio secao">
                 <div class="container">
                     <div class="fileira">
                        <div class="titulo padd-15">
@@ -431,8 +443,8 @@
                             <h2 class="titulo__titulo">Me contate</h2>
                         </div>
                     </div>
-                    <h3 class="contato__titulo">Alguma duvida?</h3>
-                    <h4 class="contato__sub-titulo">Ao seu dispor</h4>  
+                    <h3 class="contato__titulo padd-15">Alguma duvida?</h3>
+                    <h4 class="contato__sub-titulo padd-15">Ao seu dispor</h4>  
                     <div class="fileira">
                         <div class="contato__info-item padd-15">
                             <div class="info-item__icone">
@@ -444,7 +456,7 @@
                         <div class="contato__info-item padd-15">
                             <div class="info-item__icone">
                                 <i class="fa fa-map-marker-alt info-item__icone___icon"></i>
-                                <h4 class="info-item__icone___titulo">Residencia</h4>
+                                <h4 class="info-item__icone___titulo">Residência</h4>
                                 <p  class="info-item__icone___texto">Americana</p>
                             </div>
                         </div>
@@ -463,8 +475,43 @@
                             </div>
                         </div>
                     </div>
-                    <h3 class="contato__titulo">Me envie um email ou mensagem</h3>
-                    <h4 class="contato__sub-titulo">respondo rapido</h4>                  
+                    <h3 class="contato__titulo padd-15">Me envie uma mensagem</h3>
+                    <h4 class="contato__sub-titulo padd-15">respondo rapido</h4>
+                    <div class="fileira">
+                        <div class="contato__form padd-15">
+                            <div class="fileira">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-item__grupo">
+                                        <input type="text" class="form-item__controle" placeholder="Nome">
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-item__grupo">
+                                        <input type="email" class="form-item__controle" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fileira">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-item__grupo">
+                                        <input type="text" class="form-item__controle" placeholder="Assunto">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fileira">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-item__grupo">
+                                        <textarea name="" class="form-item__controle___texto" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fileira">
+                                <div class="form-item col-12 padd-15">
+                                   <button type="submit" class="btn contato__btn">Enviar Mensagem</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                  
                 </div>
             </section>
         </div>

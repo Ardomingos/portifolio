@@ -2,8 +2,9 @@
 {
     background: var(--bg-black-900);
     min-height: 100vh;
-    position:absolute;
-    left: 270px;
+    display: block;
+    position:relative;
+    left: 150px;
     padding: 0 30px;
     top: 0;
     right: 0;
