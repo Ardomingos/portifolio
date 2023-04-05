@@ -77,7 +77,6 @@
     <link rel="stylesheet" href="assets/css/principal/principal-foto.css">
     <link rel="stylesheet" href="assets/css/principal/principal-foto/foto.css">
     <link rel="stylesheet" href="assets/css/principal/principal-info/conhecimentos.css">
-    <link rel="stylesheet" href="assets/css/principal/principal-info/contato.css">
     <link rel="stylesheet" href="assets/css/principal/principal-info/digitacao.css">
     <link rel="stylesheet" href="assets/css/principal/principal-info/nome.css">
     <link rel="stylesheet" href="assets/css/principal/principal-info/texto.css">
@@ -91,6 +90,10 @@
     <link rel="stylesheet" href="assets/css/skills-item/item-progresso.css">
     <link rel="stylesheet" href="assets/css/skills-item/item-titulo.css">
     <link rel="stylesheet" href="assets/css/skin/cor1.css">
+    <link rel="stylesheet" href="assets/css/skin/cor2.css">
+    <link rel="stylesheet" href="assets/css/skin/cor3.css">
+    <link rel="stylesheet" href="assets/css/skin/cor4.css">
+    <link rel="stylesheet" href="assets/css/skin/cor5.css">
     <link rel="stylesheet" href="assets/css/timeline/item/item.css">
     <link rel="stylesheet" href="assets/css/timeline/item/item-calendario.css">
     <link rel="stylesheet" href="assets/css/timeline/item/item-circulo.css">
@@ -98,6 +101,11 @@
     <link rel="stylesheet" href="assets/css/timeline/texto.css">
     <link rel="stylesheet" href="assets/css/timeline/titulo.css">
     <link rel="stylesheet" href="assets/css/titulo/titulo.css">
+    <link rel="stylesheet" href="assets/css/troca-tema.css">
+    <link rel="stylesheet" href="assets/css/troca-tema/cores.css">
+    <link rel="stylesheet" href="assets/css/troca-tema/dia-noite.css">
+    <link rel="stylesheet" href="assets/css/troca-tema/troca-tema__botao.css">
+    <link rel="stylesheet" href="assets/css/troca-tema/s-icon.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
 </head>
@@ -553,8 +561,34 @@
             </section>
             <!-- =============== seção contato fim =============== -->
         </div>
-
+        
     </div>
-    
+
+    <!-- ======== mudança de estilo ========-->
+        <div class="troca-tema">
+            <div class="troca-tema__botao s-icon">
+                <i class="fas fa-cog fa-spin"></i>
+            </div>
+
+            <div class="dia-noite s-icon">
+                <i class="fas fa-moon"></i>
+            </div>
+            <h4>Cor tema</h4>
+            <div class="cores">
+                <span class="cor-1" onclick="setActiveStyle('cor1')"></span>
+                <span class="cor-2" onclick="setActiveStyle('cor2')"></span>
+                <span class="cor-3" onclick="setActiveStyle('cor3')"></span>
+                <span class="cor-4" onclick="setActiveStyle('cor4')"></span>
+                <span class="cor-5" onclick="setActiveStyle('cor5')"></span>
+            </div>
+        </div>
+    <!-- ======== mudança de estilo ========-->
+
+
+
+
+
+    <!-- ======= Js file ======= -->
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
