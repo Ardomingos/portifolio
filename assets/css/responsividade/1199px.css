@@ -1,0 +1,15 @@
+@media(max-width: 1199px){
+    .menu-lateral{
+        left: -270px;
+    }
+
+    .secao{
+        left: 0;   
+    }
+
+    .info-pessoal__item___destaque{
+        display: block;
+        margin-left: 0;
+    }
+
+}
