@@ -1,0 +1,14 @@
+@media (max-width:767px){
+    
+    .skills,
+    .educacao,
+    .experiencia,
+    .contato .col-6,
+    .fileira .contato__info-item,
+    .fileira .port-item,
+    .fileira .conhecimento-container,
+    .info-pessoal{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

@@ -3,5 +3,17 @@
     .principal__foto{
         display: none;
     }
+
+    .principal-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .contato__info-item,
+    .port-item,
+    .conhecimento-container{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
     
 }
