@@ -1,6 +1,6 @@
 .titulo__titulo{
     font-size: 40px;
-    color: var(--text-back-900);
+    color: var(--text-black-900);
     font-weight: 700;
     position: relative;
 }
