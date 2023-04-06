@@ -3,8 +3,17 @@
         left: -270px;
     }
 
+    .menu-lateral.abrir{
+        left: 0;
+    }
+
+    .menu-lateral .navegacao-lateral{
+        display: flex;
+        left: 30px;
+    }
+
     .secao{
-        left: 0;   
+        left: 0;
     }
 
     .info-pessoal__item___destaque{

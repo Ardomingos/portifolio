@@ -25,9 +25,14 @@ const nav = document.querySelector(".menu-lateral"),
        
         const a = navList[i].querySelector("a");
         a.addEventListener("click", function(){
+
+            for(let i=0; i<totalSection; i++){
+                allSection[i].classList.remove("secao-atras");
+            }
+
             for(let j=0; j<totalNavList; j++){
                 if(navList[j].querySelector("a").classList.contains("active")){
-                    console.log(navList[i.querySelector("a")])
+                    allSection[j].classList.add("secao-atras")
                 }
                 navList[j].querySelector("a").classList.remove("active");
             }
@@ -46,3 +51,14 @@ const nav = document.querySelector(".menu-lateral"),
         document.querySelector("#" + target).classList.add("active")
         
     }
+
+    const navTogglerbtn = document.querySelector(".navegacao-lateral"),
+        menuLateral = document.querySelector(".menu-lateral");
+        navTogglerbtn.addEventListener("click", ()=>{
+            
+            botaoDaBarraLateral();
+        })
+
+        function botaoDaBarraLateral(){
+            menuLateral.classList.toggle("abrir")
+        }
