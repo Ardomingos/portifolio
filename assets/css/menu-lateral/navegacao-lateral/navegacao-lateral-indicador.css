@@ -7,6 +7,11 @@
     position: relative;
 }
 
+.navegacao-lateral.abrir .navegacao-lateral__indicador{
+    background-color: transparent;
+}
+
+
 .navegacao-lateral__indicador::before
 {
     content: '';
@@ -27,4 +32,15 @@
     position: absolute;
     top: 6px;
     left: 0;
+}
+
+
+.navegacao-lateral.abrir .navegacao-lateral__indicador::before{
+    transform: rotate(45deg);
+    top: 0;
+}
+
+.navegacao-lateral.abrir .navegacao-lateral__indicador::after{
+    transform: rotate(-45deg);
+    top: 0;
 }

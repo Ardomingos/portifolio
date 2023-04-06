@@ -12,8 +12,16 @@
         left: 30px;
     }
 
+    .menu-lateral .navegacao-lateral.abrir{
+        left: 300px;
+    }
+
     .secao{
         left: 0;
+    }
+
+    .secao.abrir{
+        left: 270px;
     }
 
     .info-pessoal__item___destaque{
